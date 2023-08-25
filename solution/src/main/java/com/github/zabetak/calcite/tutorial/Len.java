@@ -12,10 +12,6 @@ public class Len extends SqlFunction {
     }
 
 
-    void lol(){
-        //some magic
-        // that rearrages operands
-    }
 
 
 

@@ -114,7 +114,7 @@ public class LuceneQueryProcessor {
 
 
 
-        String sqlQuery = "SELECT ADD(2,4), PLUS(3,5)";
+        String sqlQuery = "SELECT Len(6,'ashish'), CharLen('ashish',6)";
         long start = System.currentTimeMillis();
         Enumerable<Objects> rows = execute(sqlQuery, Type.SIMPLE);
         if (rows != null) {
@@ -216,7 +216,9 @@ public class LuceneQueryProcessor {
         System.out.println(physicalPlan);
 
 
+        for(Object[] row : physicalPlan.{
 
+        }
 
 
         // Initialize optimizer/planner with the necessary rules

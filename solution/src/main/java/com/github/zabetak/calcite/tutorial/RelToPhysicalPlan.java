@@ -210,6 +210,8 @@ public class RelToPhysicalPlan {
 
     public static ConditionNode build(RexNode rexNode) {
 
+
+
         if (rexNode instanceof RexCall) {
 
             ConditionNode conditionNode = new ConditionNode();
